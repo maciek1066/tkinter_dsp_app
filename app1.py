@@ -10,11 +10,11 @@ window.geometry("400x200")
 
 # FUNCTIONS
 def phrase_generator():
-    phrases = ["Hello ", "How are you doing ", "Nice to see you "]
+    phrases = ["Hello ", "Nice to see you "]
 
     name = str(entry1.get())
 
-    return phrases[random.randint(0, 2)] + name
+    return phrases[random.randint(0, 1)] + name
 
 
 def phrase_display():
