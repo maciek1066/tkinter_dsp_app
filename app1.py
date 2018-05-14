@@ -3,7 +3,7 @@ import tkinter as tk
 
 window = tk.Tk()
 
-window.title("Greetings ______")
+window.title("Greetings")
 
 window.geometry("400x200")
 
